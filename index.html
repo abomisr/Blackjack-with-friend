@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game">
+        <div><input id="player1name" type="text" placeholder="ENTER NAME"><h2 id="p1"></h2></div> 
+        <div>
+            <h1 id="title">Who is the winner ?!</h1>
+            <p id="message-el">want to play a round?</p>
+            <p id="cards-el">Cards: </p>
+            <p id="sum-el">Sum: </p>
+            <div class="btns">
+                <button id="start-game" onclick="startGame()">Start game</button>
+                <button id="new-card" onclick="newCard()">new card</button>
+                <button id="reload" onclick="reload()" style="display:none;">Reload the game</button>
+            </div>
+        </div>
+        <div><input id="player2name" type="text" placeholder="ENTER NAME"><h2 id="p2"></h2></div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
